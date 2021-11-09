@@ -5,7 +5,7 @@ import Masthead from "./components/Masthead/Masthead";
 import Services from "./components/Services/Services";
 import PortfolioGrid from "./components/PortfolioGrid/PortifolioGrid";
 import About from "./components/About/About";
-import Team from "./components/Team/Team";
+import Team from "./components/Team/Team1";
 import Clients from "./components/Clients/Clients";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
