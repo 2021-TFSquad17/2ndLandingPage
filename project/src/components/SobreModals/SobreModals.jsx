@@ -1,10 +1,10 @@
 import { Component } from "react";
 
-class PortfolioModals extends Component {
+class SobreModals extends Component {
     render() {
         return (
-            <section className="portfolio-modals">
-            <div className="portfolio-modal modal fade" id="portfolioModal1" tabIndex="-1" role="dialog" aria-hidden="true">
+            <section className="Sobre-modals">
+            <div className="Sobre-modal modal fade" id="SobreModal1" tabIndex="-1" role="dialog" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -14,7 +14,7 @@ class PortfolioModals extends Component {
                                 <div className="modal-body">
                                     <h2 className="text-uppercase">Project Name</h2>
                                     <p className="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img className="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                    <img className="img-fluid d-block mx-auto" src="assets/img/Sobre/1.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul className="list-inline">
                                         <li>
@@ -37,7 +37,7 @@ class PortfolioModals extends Component {
                 </div>
             </div>
         </div>
-        <div className="portfolio-modal modal fade" id="portfolioModal2" tabIndex="-1" role="dialog" aria-hidden="true">
+        <div className="Sobre-modal modal fade" id="SobreModal2" tabIndex="-1" role="dialog" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -47,7 +47,7 @@ class PortfolioModals extends Component {
                                 <div className="modal-body">
                                     <h2 className="text-uppercase">Project Name</h2>
                                     <p className="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img className="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
+                                    <img className="img-fluid d-block mx-auto" src="assets/img/Sobre/2.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul className="list-inline">
                                         <li>
@@ -70,7 +70,7 @@ class PortfolioModals extends Component {
                 </div>
             </div>
         </div>
-        <div className="portfolio-modal modal fade" id="portfolioModal3" tabIndex="-1" role="dialog" aria-hidden="true">
+        <div className="Sobre-modal modal fade" id="SobreModal3" tabIndex="-1" role="dialog" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -80,7 +80,7 @@ class PortfolioModals extends Component {
                                 <div className="modal-body">
                                     <h2 className="text-uppercase">Project Name</h2>
                                     <p className="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img className="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
+                                    <img className="img-fluid d-block mx-auto" src="assets/img/Sobre/3.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul className="list-inline">
                                         <li>
@@ -103,7 +103,7 @@ class PortfolioModals extends Component {
                 </div>
             </div>
         </div>
-        <div className="portfolio-modal modal fade" id="portfolioModal4" tabIndex="-1" role="dialog" aria-hidden="true">
+        <div className="Sobre-modal modal fade" id="SobreModal4" tabIndex="-1" role="dialog" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -113,7 +113,7 @@ class PortfolioModals extends Component {
                                 <div className="modal-body">
                                     <h2 className="text-uppercase">Project Name</h2>
                                     <p className="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img className="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
+                                    <img className="img-fluid d-block mx-auto" src="assets/img/Sobre/4.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul className="list-inline">
                                         <li>
@@ -136,7 +136,7 @@ class PortfolioModals extends Component {
                 </div>
             </div>
         </div>
-        <div className="portfolio-modal modal fade" id="portfolioModal5" tabIndex="-1" role="dialog" aria-hidden="true">
+        <div className="Sobre-modal modal fade" id="SobreModal5" tabIndex="-1" role="dialog" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -147,7 +147,7 @@ class PortfolioModals extends Component {
 
                                     <h2 className="text-uppercase">Project Name</h2>
                                     <p className="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img className="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+                                    <img className="img-fluid d-block mx-auto" src="assets/img/Sobre/5.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul className="list-inline">
                                         <li>
@@ -170,7 +170,7 @@ class PortfolioModals extends Component {
                 </div>
             </div>
         </div>
-            <div className="portfolio-modal modal fade" id="portfolioModal6" tabIndex="-1" role="dialog" aria-hidden="true">
+            <div className="Sobre-modal modal fade" id="SobreModal6" tabIndex="-1" role="dialog" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -180,7 +180,7 @@ class PortfolioModals extends Component {
                                     <div className="modal-body">
                                         <h2 className="text-uppercase">Project Name</h2>
                                         <p className="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                        <img className="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                                        <img className="img-fluid d-block mx-auto" src="assets/img/Sobre/6.jpg" alt="..." />
                                         <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                         <ul className="list-inline">
                                             <li>
@@ -208,4 +208,4 @@ class PortfolioModals extends Component {
     }
 }
 
-export default PortfolioModals;
+export default SobreModals;

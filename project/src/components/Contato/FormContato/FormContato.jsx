@@ -4,7 +4,7 @@ import "./style.css";
 import ValidationsForm from "../../../contexts/ValidationsForm";
 import useErros from "../../../hooks/useErros";
 
-function FormContact() {
+function FormContato() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [telephone, setTelephone] = useState("");
@@ -114,4 +114,4 @@ function FormContact() {
     );
 }
 
-export default FormContact;
+export default FormContato;

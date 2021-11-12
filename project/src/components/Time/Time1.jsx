@@ -1,12 +1,12 @@
 import { Component } from "react";
 import TeamImage from "../../assets/img/team/1.jpg";
-import Team2 from "./Team2";
+import Team2 from "./Time2";
 
 
 class Team extends Component {
     render() {
         return (
-            <section className="page-section bg-light" id="team">
+            <section className="page-section bg-light" id="time">
                 <div className="container">
                     <div className="text-center">
                         <h2 className="section-heading text-uppercase">Nosso Time</h2>

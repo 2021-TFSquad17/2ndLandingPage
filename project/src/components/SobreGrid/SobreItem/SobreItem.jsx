@@ -1,7 +1,7 @@
 import { Component } from "react";
 import PortfolioImage from "../../../assets/img/portfolio/1.jpg";
 
-class PortfolioItem extends Component {
+class SobreItem extends Component {
     render() {
         return (
             <div className="col-lg-4 col-sm-6 mb-4">
@@ -22,4 +22,4 @@ class PortfolioItem extends Component {
     }
 }
 
-export default PortfolioItem;
+export default SobreItem;

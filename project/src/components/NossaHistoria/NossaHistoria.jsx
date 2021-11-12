@@ -1,13 +1,13 @@
 import { Component } from "react";
 import ImageAbout from "../../assets/img/about/1.jpg";
 
-class About extends Component {
+class NossaHistoria extends Component {
     render() {
         return (
-            <section className="page-section" id="about">
+            <section className="page-section" id="nossaHistoria">
                 <div className="container">
                     <div className="text-center">
-                        <h2 className="section-heading text-uppercase">About</h2>
+                        <h2 className="section-heading text-uppercase">Nossa História</h2>
                         <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                     </div>
                     <ul className="timeline">
@@ -51,14 +51,16 @@ class About extends Component {
                                 <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
                             </div>
                         </li>
-                        <li className="timeline-inverted">
+                        <li className="timeline-inverted" >
                             <div className="timeline-image">
                                 <h4>
+                                <a className="cont-link" href="#contato">
                                     Be Part
                                     <br />
                                     Of Our
                                     <br />
                                     Story!
+                                </a>
                                 </h4>
                             </div>
                         </li>
@@ -69,4 +71,4 @@ class About extends Component {
     }
 }
 
-export default About;
+export default NossaHistoria;

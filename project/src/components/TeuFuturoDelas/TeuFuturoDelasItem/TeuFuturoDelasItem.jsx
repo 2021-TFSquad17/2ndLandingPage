@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-class ServiceItem extends Component {
+class TeuFuturoDelasItem extends Component {
     render() {
         return (
             <div className="col-md-4">
@@ -15,4 +15,4 @@ class ServiceItem extends Component {
     }
 }
 
-export default ServiceItem;
+export default TeuFuturoDelasItem;

@@ -1,7 +1,7 @@
 import { Component } from "react";
 import ClientImage from "../../assets/img/logos/microsoft.svg";
 
-class Clients extends Component {
+class Apoiadores extends Component {
     render() {
         return (
             <div className="py-5">
@@ -26,4 +26,4 @@ class Clients extends Component {
     }
 }
 
-export default Clients;
+export default Apoiadores;

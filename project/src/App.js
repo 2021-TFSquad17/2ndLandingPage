@@ -1,30 +1,30 @@
 import React, { Component } from "react";
 import './assets/App.css';
 import Navigation from "./components/Navigation/Navigation";
-import Masthead from "./components/Masthead/Masthead";
-import Services from "./components/Services/Services";
-import PortfolioGrid from "./components/PortfolioGrid/PortifolioGrid";
-import About from "./components/About/About";
-import Team from "./components/Team/Team1";
-import Clients from "./components/Clients/Clients";
-import Contact from "./components/Contact/Contact";
+import Header from "./components/Header/Header";
+import TeuFuturoDelas from "./components/TeuFuturoDelas/TeuFuturoDelas";
+import SobreGrid from "./components/SobreGrid/SobreGrid";
+import NossaHistoria from "./components/NossaHistoria/NossaHistoria";
+import Time from "./components/Time/Time1";
+import Apoiadores from "./components/Apoiadores/Apoiadores";
+import Contato from "./components/Contato/Contato";
 import Footer from "./components/Footer/Footer";
-import PortfolioModals from "./components/PortfolioModals/PortfolioModals";
+import SobreModals from "./components/SobreModals/SobreModals";
 
 class App extends Component {
   render() {
     return (
       <div id="page-top">
           <Navigation/>
-          <Masthead/>
-          <Services/>
-          <PortfolioGrid/>
-          <About/>
-          <Team/>
-          <Clients/>
-          <Contact/>
+          <Header/>
+          <TeuFuturoDelas/>
+          <SobreGrid/>
+          <NossaHistoria/>
+          <Time/>
+          <Apoiadores/>
+          <Contato/>
           <Footer/>
-          <PortfolioModals/>
+          <SobreModals/>
       </div>
     );
   }
