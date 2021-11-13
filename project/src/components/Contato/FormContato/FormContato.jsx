@@ -7,7 +7,6 @@ import useErros from "../../../hooks/useErros";
 function FormContato() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
-    const [telephone, setTelephone] = useState("");
     const [message, setMessage] = useState("");
     const validations = useContext(ValidationsForm);
     const [erros, validateFields, canSendForm] = useErros(validations);
@@ -16,7 +15,7 @@ function FormContato() {
         <form className="form-contact" onSubmit={(event) => {
             event.preventDefault();
             if (canSendForm()) {
-                console.log({ name, email, telephone, message });
+                console.log({ name, email, message });
             }
         }}>
             <TextField
@@ -60,26 +59,6 @@ function FormContato() {
             />
 
             <TextField
-                value={telephone}
-                onChange={(event) => {
-                    setTelephone(event.target.value);
-                }}
-                onBlur={(event)=>{
-                    validateFields(event);
-                }}
-                name="telephone"
-                className="normal-input"
-                type="number"
-                label="Telefone"
-                variant="filled"
-                color="secondary"
-                fullWidth
-                margin="normal"
-                error={!erros.telephone.valid}
-                helperText={erros.telephone.text}
-            />
-
-            <TextField
                 value={message}
                 onChange={(event) => {
                     setMessage(event.target.value);
@@ -106,6 +85,7 @@ function FormContato() {
                 color="secondary"
                 variant="contained"
                 type="submit"
+                fullWidth
             >
                 Enviar
             </Button>

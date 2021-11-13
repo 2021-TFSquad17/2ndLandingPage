@@ -49,7 +49,7 @@ class Team2 extends Component {
                                 <h4>Diana Petersen</h4>
                                 <p className="text-muted">Lead Marketer</p>
                                 <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-github"></i></a>
-                                <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-github-h"></i></a>
+                                <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>  
                     </div>

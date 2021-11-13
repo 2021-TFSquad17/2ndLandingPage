@@ -19,11 +19,4 @@ function validateEmail(email){
     return {valid:true,text:""}
 }
 
-function validateTelephone(telephone){
-    if(telephone.length === 0){
-        return {valid:false,text:"O telefone não pode ser em branco!"}
-    }
-    return {valid:true,text:""}
-}
-
-export {validateMessage,validateName,validateEmail,validateTelephone};
+export {validateMessage,validateName,validateEmail};
