@@ -1,5 +1,5 @@
 import { Component } from "react";
-import NavBarLogo from "../../assets/img/navbar-logo.svg";
+import NavBarLogo from "../../assets/img/logo-teufuturo-delas.png";
 
 class Navigation extends Component {
     render() {
