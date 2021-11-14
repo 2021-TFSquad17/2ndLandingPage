@@ -1,23 +1,25 @@
 import TeuFuturoDelasItem from "./TeuFuturoDelasItem/TeuFuturoDelasItem";
-import ImagemA from "../../assets/img/portfolio/1.jpg";
+import ImagemA from "../../assets/img/#teufuturo delas/svgTF.svg";
+import ImagemB from "../../assets/img/#teufuturo delas/svg-webinar.svg";
+import ImagemC from "../../assets/img/#teufuturo delas/bolsas.png";
 
 function TeuFuturoDelas(){
     const titulos = [
-        "titulo1",
-        "titulo2",
-        "titulo3"
+        "Posts e Dicas",
+        "Webinars Mensais",
+        "Bolsas"
     ];
 
     const subTitulos = [
-        "subTitulo1",
-        "subTitulo2",
-        "subTitulo3"
+        "Os posts e as dicas de tecnologia serão postados no Instagram oficial do projeto (@teufuturodelas).",
+        "Os webinars contarão com convidadas atuantes na área, e serão transmitidos no canal da IMED no YouTube, que você pode acessar clicando aqui.",
+        "As bolsas serão especialmente para meninas que estão entrando na computação, sendo de 80% (40% patrocinada pela IMED e os outros 40% pelos patrocinadores)."
     ];
 
     const icones = [
         ImagemA,
-        <i className="fas fa-laptop fa-stack-1x fa-inverse"></i>,
-        <i className="fas fa-lock fa-stack-1x fa-inverse"></i>
+        ImagemB,
+        ImagemC
     ];
 
 
