@@ -64,6 +64,10 @@
   --bs-body-bg: #fff;
 }
 
+.title-tf-delas {
+  color:#7111A8;
+}
+
 *,
 *::before,
 *::after {
@@ -11419,7 +11423,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/bg1.PNG");  
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11433,7 +11437,7 @@ header.masthead .masthead-subheading {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .masthead-heading {
-  font-size: 3.25rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
@@ -11448,13 +11452,13 @@ header.masthead .masthead-heading {
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     font-style: italic;
-    line-height: 2.25rem;
-    margin-bottom: 2rem;
+   /* line-height: 2.25rem;*/
+   /* margin-bottom: 2rem;*/
   }
   header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
-    line-height: 4.5rem;
+   /* line-height: 4.5rem;*/
     margin-bottom: 4rem;
   }
 }
@@ -11463,6 +11467,12 @@ header.masthead .masthead-heading {
   margin-left: auto;
   margin-right: auto;
 }
+
+#sobre .section-heading .text-uppercase .title-tf-delas {
+  color: #7111A8;
+}
+
+
 #sobre .portfolio-item .portfolio-link {
   position: relative;
   display: block;

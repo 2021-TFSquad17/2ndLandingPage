@@ -25,8 +25,8 @@ function TeuFuturoDelas(){
             <section className="page-section" id="teuFuturoDelas">
                 <div className="container">
                     <div className="text-center">
-                        <h2 className="section-heading text-uppercase">#TeuFuturo Delas</h2>
-                        <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h2 className="section-heading text-uppercase title-tf-delas">#TeuFuturo Delas</h2>
+                        <h3 className="section-subheading text-muted">#TeuFuturo Delas é um projeto do InovaEdu da IMED com a proposta de impulsionar meninas na carreira de tecnologia, buscando um cenário científico e tecnológico mais equitativo e diverso. Aproximará meninas da área de programação, dando a elas apoio, informação e ferramentas para que consigam estar inseridas nesse contexto. A iniciativa contará com:</h3>
                     </div>
                     <div className="row text-center">
                         <TeuFuturoDelasItem titulo={titulos[0]} subTitulo={subTitulos[0]} icone={icones[0]}/> 
