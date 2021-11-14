@@ -1,7 +1,7 @@
 /*Imagens Apoiadores */
-import imagemApoiador1 from "../../assets/img/logos/facebook.svg";
-import imagemApoiador2 from "../../assets/img/logos/google.svg";
-import imagemApoiador3 from "../../assets/img/logos/microsoft.svg";
+import imagemApoiador1 from "../../assets/img/logos/imed-logo.png";
+import imagemApoiador2 from "../../assets/img/logos/yaman-logo.png";
+import imagemApoiador3 from "../../assets/img/logos/teufuturo-logo.png";
 import LogoApoiadores from "./LogoApoiadores/LogoApoiadores";
 
 function Apoiadores() {
