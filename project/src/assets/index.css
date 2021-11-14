@@ -1375,7 +1375,7 @@ progress {
 
   .col-lg-2-5{
     flex: 0 0 auto;
-    width: 20%;
+    width: 100%;
   }
   .col-lg-3 {
     flex: 0 0 auto;
@@ -11502,34 +11502,42 @@ header.masthead .masthead-heading {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.Sobre-modal .modal-dialog {
+.Depoimento-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
 }
-.Sobre-modal .modal-content {
+.Depoimento-modal .modal-content {
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
 }
-.Sobre-modal .modal-content h2, .Sobre-modal .modal-content .h2 {
+.Depoimento-modal .modal-content h2, .Depoimento-modal .modal-content .h2 {
   font-size: 3rem;
   line-height: 3rem;
 }
-.Sobre-modal .modal-content p.item-intro {
+.Depoimento-modal .modal-content p.item-intro {
   font-style: italic;
   margin-bottom: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.Sobre-modal .modal-content p {
+.Depoimento-modal .modal-content p {
   margin-bottom: 2rem;
 }
-.Sobre-modal .modal-content ul.list-inline {
+.Depoimento-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
 }
-.Sobre-modal .modal-content img {
+.Depoimento-modal .modal-content img {
+  width: 50%;
   margin-bottom: 2rem;
 }
-.Sobre-modal .close-modal {
+
+@media screen and (max-width:500px) {
+  .Depoimento-modal .modal-content img{
+    width: 70%;
+  }
+}
+
+.Depoimento-modal .close-modal {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
@@ -11538,7 +11546,7 @@ header.masthead .masthead-heading {
   cursor: pointer;
   background-color: transparent;
 }
-.Sobre-modal .close-modal:hover {
+.Depoimento-modal .close-modal:hover {
   opacity: 0.3;
 }
 
@@ -11714,13 +11722,13 @@ header.masthead .masthead-heading {
   text-align: center;
 }
 .team-member img {
-  width: 11rem;
-  height: 11rem;
+  width: 10rem;
+  height: 10rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .img-brand {

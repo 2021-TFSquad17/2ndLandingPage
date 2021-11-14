@@ -1,26 +1,26 @@
 import closeModalIcon from "../../assets/img/close-icon.svg"
 
-/*SobreItems imagens */
-import SobreItem1 from "../../assets/img/portfolio/1.jpg";
-import SobreItem2 from "../../assets/img/portfolio/2.jpg";
-import SobreItem3 from "../../assets/img/portfolio/3.jpg";
-import SobreItem4 from "../../assets/img/portfolio/4.jpg";
-import SobreItem5 from "../../assets/img/portfolio/5.jpg";
-import SobreItem6 from "../../assets/img/portfolio/6.jpg";
+/*Depoimento imagens */
+import DepoimentoItem1 from "../../assets/img/portfolio/1.jpg";
+import DepoimentoItem2 from "../../assets/img/portfolio/2.jpg";
+import DepoimentoItem3 from "../../assets/img/portfolio/3.jpg";
+import DepoimentoItem4 from "../../assets/img/portfolio/4.jpg";
+import DepoimentoItem5 from "../../assets/img/portfolio/5.jpg";
+import DepoimentoItem6 from "../../assets/img/portfolio/6.jpg";
 
-function SobreModals(){
+function DepoimentosModals(){
     const modalImages = [
-        SobreItem1,
-        SobreItem2,
-        SobreItem3,
-        SobreItem4,
-        SobreItem5,
-        SobreItem6,
+        DepoimentoItem1,
+        DepoimentoItem2,
+        DepoimentoItem3,
+        DepoimentoItem4,
+        DepoimentoItem5,
+        DepoimentoItem6,
     ];
         return (
-            <section className="Sobre-modals">
+            <section className="Depoimento-modals">
 
-            <div className="Sobre-modal modal fade" id="SobreModal1" tabIndex="-1" role="dialog" aria-hidden="true">
+            <div className="Depoimento-modal modal fade" id="SobreModal1" tabIndex="-1" role="dialog" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="close-modal" data-bs-dismiss="modal"><img src={closeModalIcon} alt="Close modal" /></div>
@@ -32,16 +32,6 @@ function SobreModals(){
                                     <p className="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                     <img className="img-fluid d-block mx-auto" src={modalImages[0]} alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul className="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Threads
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Illustration
-                                        </li>
-                                    </ul>
                                     <button className="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i className="fas fa-times me-1"></i>
                                         Close Project
@@ -54,7 +44,7 @@ function SobreModals(){
             </div>
         </div>
 
-        <div className="Sobre-modal modal fade" id="SobreModal2" tabIndex="-1" role="dialog" aria-hidden="true">
+        <div className="Depoimento-modal modal fade" id="SobreModal2" tabIndex="-1" role="dialog" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="close-modal" data-bs-dismiss="modal"><img src={closeModalIcon} alt="Close modal" /></div>
@@ -88,7 +78,7 @@ function SobreModals(){
             </div>
         </div>
 
-        <div className="Sobre-modal modal fade" id="SobreModal3" tabIndex="-1" role="dialog" aria-hidden="true">
+        <div className="Depoimento-modal modal fade" id="SobreModal3" tabIndex="-1" role="dialog" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="close-modal" data-bs-dismiss="modal"><img src={closeModalIcon} alt="Close modal" /></div>
@@ -122,7 +112,7 @@ function SobreModals(){
             </div>
         </div>
 
-        <div className="Sobre-modal modal fade" id="SobreModal4" tabIndex="-1" role="dialog" aria-hidden="true">
+        <div className="Depoimento-modal modal fade" id="SobreModal4" tabIndex="-1" role="dialog" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="close-modal" data-bs-dismiss="modal"><img src={closeModalIcon} alt="Close modal" /></div>
@@ -156,7 +146,7 @@ function SobreModals(){
             </div>
         </div>
 
-        <div className="Sobre-modal modal fade" id="SobreModal5" tabIndex="-1" role="dialog" aria-hidden="true">
+        <div className="Depoimento-modal modal fade" id="SobreModal5" tabIndex="-1" role="dialog" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="close-modal" data-bs-dismiss="modal"><img src={closeModalIcon} alt="Close modal" /></div>
@@ -191,7 +181,7 @@ function SobreModals(){
             </div>
         </div>
 
-            <div className="Sobre-modal modal fade" id="SobreModal6" tabIndex="-1" role="dialog" aria-hidden="true">
+            <div className="Depoimento-modal modal fade" id="SobreModal6" tabIndex="-1" role="dialog" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="close-modal" data-bs-dismiss="modal"><img src={closeModalIcon} alt="Close modal" /></div>
@@ -229,4 +219,4 @@ function SobreModals(){
         );
     }
 
-export default SobreModals;
+export default DepoimentosModals;

@@ -1,4 +1,5 @@
 import TeuFuturoDelasItem from "./TeuFuturoDelasItem/TeuFuturoDelasItem";
+import ImagemA from "../../assets/img/portfolio/1.jpg";
 
 function TeuFuturoDelas(){
     const titulos = [
@@ -14,7 +15,7 @@ function TeuFuturoDelas(){
     ];
 
     const icones = [
-        <i className="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>,
+        ImagemA,
         <i className="fas fa-laptop fa-stack-1x fa-inverse"></i>,
         <i className="fas fa-lock fa-stack-1x fa-inverse"></i>
     ];
