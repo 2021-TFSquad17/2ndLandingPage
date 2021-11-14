@@ -7124,6 +7124,7 @@ textarea.form-control-lg {
 
 .align-items-center {
   align-items: center !important;
+  justify-content: space-evenly;
 }
 
 .align-items-baseline {
