@@ -1,8 +1,17 @@
-import { Component } from "react";
-import ImageAbout from "../../assets/img/about/1.jpg";
+/*Imagens nossa história */
+import imagensNossaHistoria1 from "../../assets/img/about/1.jpg";
+import imagensNossaHistoria2 from "../../assets/img/about/2.jpg";
+import imagensNossaHistoria3 from "../../assets/img/about/3.jpg";
+import imagensNossaHistoria4 from "../../assets/img/about/4.jpg";
 
-class NossaHistoria extends Component {
-    render() {
+function NossaHistoria(){
+    const imagensNossaHistoria =[
+        imagensNossaHistoria1,
+        imagensNossaHistoria2,
+        imagensNossaHistoria3,
+        imagensNossaHistoria4,
+    ];
+
         return (
             <section className="page-section" id="nossaHistoria">
                 <div className="container">
@@ -12,7 +21,7 @@ class NossaHistoria extends Component {
                     </div>
                     <ul className="timeline">
                         <li>
-                            <div className="timeline-image"><img className="rounded-circle img-fluid" src={ImageAbout} alt="..." /></div>
+                            <div className="timeline-image"><img className="rounded-circle img-fluid" src={imagensNossaHistoria[0]} alt="..." /></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
                                     <h4>2009-2011</h4>
@@ -22,7 +31,7 @@ class NossaHistoria extends Component {
                             </div>
                         </li>
                         <li className="timeline-inverted">
-                            <div className="timeline-image"><img className="rounded-circle img-fluid" src={ImageAbout} alt="..." /></div>
+                            <div className="timeline-image"><img className="rounded-circle img-fluid" src={imagensNossaHistoria[1]} alt="..." /></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
                                     <h4>March 2011</h4>
@@ -32,7 +41,7 @@ class NossaHistoria extends Component {
                             </div>
                         </li>
                         <li>
-                            <div className="timeline-image"><img className="rounded-circle img-fluid" src={ImageAbout} alt="..." /></div>
+                            <div className="timeline-image"><img className="rounded-circle img-fluid" src={imagensNossaHistoria[2]} alt="..." /></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
                                     <h4>December 2015</h4>
@@ -42,7 +51,7 @@ class NossaHistoria extends Component {
                             </div>
                         </li>
                         <li className="timeline-inverted">
-                            <div className="timeline-image"><img className="rounded-circle img-fluid" src={ImageAbout} alt="..." /></div>
+                            <div className="timeline-image"><img className="rounded-circle img-fluid" src={imagensNossaHistoria[3]} alt="..." /></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
                                     <h4>July 2020</h4>
@@ -69,6 +78,5 @@ class NossaHistoria extends Component {
             </section>
         );
     }
-}
 
 export default NossaHistoria;

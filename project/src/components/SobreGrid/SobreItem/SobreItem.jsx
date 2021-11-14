@@ -1,4 +1,4 @@
-function SobreItem({sobreImagem,sobreLink}){
+function SobreItem({sobreImagem,sobreLink,sobreTitulo,sobreSubTitulo}){
         return (
             <div className="col-lg-4 col-sm-6 mb-4">
                 <div className="portfolio-item">
@@ -9,8 +9,8 @@ function SobreItem({sobreImagem,sobreLink}){
                         <img className="img-fluid" src={sobreImagem} alt="..." />
                     </a>
                     <div className="portfolio-caption">
-                        <div className="portfolio-caption-heading">Threads</div>
-                        <div className="portfolio-caption-subheading text-muted">Illustration</div>
+                        <div className="portfolio-caption-heading">{sobreTitulo}</div>
+                        <div className="portfolio-caption-subheading text-muted">{sobreSubTitulo}</div>
                     </div>
                 </div>
             </div>
