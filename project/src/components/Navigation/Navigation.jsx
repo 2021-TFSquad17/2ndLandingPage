@@ -14,8 +14,8 @@ class Navigation extends Component {
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                             <li className="nav-item"><a className="nav-link" href="#teuFuturoDelas">#TeuFuturo Delas</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#sobre">Sobre</a></li>
                             <li className="nav-item"><a className="nav-link" href="#nossaHistoria">Nossa história</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#depoimentos">Depoimentos</a></li>
                             <li className="nav-item"><a className="nav-link" href="#time">Time</a></li>
                             <li className="nav-item"><a className="nav-link" href="#contato">Contato</a></li>
                         </ul>
