@@ -99,7 +99,7 @@ function Time() {
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Nosso Time</h2>
-                    <h3 className="section-subheading text-muted">Squad 17 #Teufuturo</h3>
+                    <h3 className="section-subheading text-muted">Conheça o time responsável pela criação e desenvolvimento desta Landing Page.</h3>
                 </div>
                 <div className="row">
                     <Carousel cols={5} rows={1} loop>
@@ -114,7 +114,7 @@ function Time() {
                     </Carousel>
                 </div>
                 <div className="row">
-                    <div className="col-lg-8 mx-auto text-center"><p className="large text-muted">Time responsável pela criação e desenvolvimeto dessa LandinPage, para o #TeuFuturo 2021.</p></div>
+                    <div className="col-lg-8 mx-auto text-center"><p className="large text-muted">Squad 17, turma de Quarta-Feira do programa #TeuFuturo 2021.</p></div>
                 </div>
             </div>
         </section>
