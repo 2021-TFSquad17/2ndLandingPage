@@ -8,7 +8,7 @@ class Contato extends Component {
                 <div className="container">
                     <div className="text-center">
                         <h2 className="section-heading text-uppercase">Contate-nos</h2>
-                        <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h3 className="section-subheading text-muted">Quer apoiar o projeto ou tem alguma dúvida? Preencha o formulário que entraremos em contato com você!</h3>
                     </div>
                     <FormContato/>
                 </div>
