@@ -13,7 +13,7 @@ function TeuFuturoDelas(){
     ];
 
     const subTitulos = [
-        "Os posts e as dicas de tecnologia serão postados no Instagram oficial do projeto ",
+        "Os posts e as dicas de tecnologia serão publicados no Instagram oficial do projeto ",
         "Os webinars contarão com convidadas atuantes na área, e serão transmitidos no canal da IMED no YouTube, que você pode acessar clicando ",
         "As bolsas serão especialmente para meninas que estão entrando na computação, sendo de 80% (40% patrocinada pela IMED e os outros 40% pelos patrocinadores)."
     ];
