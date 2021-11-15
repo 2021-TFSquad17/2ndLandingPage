@@ -35,7 +35,7 @@ function DepoimentosGrid() {
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Depoimentos</h2>
-                    <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 className="section-subheading text-muted">O projeto #TeuFuturo Delas mesmo recém começando sua trajetória já impactou positivamente a vida de muitas pessoas. Aqui separamos alguns depoimentos de colaboradoras e alunas que tiveram sua vida profissional e pessoal transformada por ele.</h3>
                 </div>
                 <div className="row">
                     <DepoimentosItem
