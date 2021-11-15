@@ -3,7 +3,7 @@ function Footer(){
             <footer className="footer py-4">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-4 text-lg-start">Copyright &copy; #TeuFuturoDelas 2021</div>
+                        <div className="col-lg-4 text-lg-start">Copyright &copy; #TeuFuturo Delas 2021</div>
                         <div className="col-lg-4 my-3 my-lg-0">
                         </div>
                         <div className="col-lg-4 text-lg-end">
