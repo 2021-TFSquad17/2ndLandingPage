@@ -17,58 +17,58 @@ function NossaHistoria(){
                 <div className="container">
                     <div className="text-center">
                         <h2 className="section-heading text-uppercase">Nossa História</h2>
-                        <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h3 className="section-subheading text-muted">A iniciativa do projeto surgiu através de alguns dados divulgados pelo IBGE, como:</h3>
                     </div>
                     <ul className="timeline">
                         <li>
                             <div className="timeline-image"><img className="rounded-circle img-fluid" src={imagensNossaHistoria[0]} alt="..." /></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 className="subheading">Our Humble Beginnings</h4>
+                                    <h4>15%</h4>
+                                    <h4 className="subheading">Atualmente, as mulheres</h4>
                                 </div>
-                                <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                                <div className="timeline-body"><p className="text-muted">representam apenas 15% dos estudantes do curso de Ciência da Computação.</p></div>
                             </div>
                         </li>
                         <li className="timeline-inverted">
                             <div className="timeline-image"><img className="rounded-circle img-fluid" src={imagensNossaHistoria[1]} alt="..." /></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 className="subheading">An Agency is Born</h4>
+                                    <h4>20%</h4>
+                                    <h4 className="subheading">De todos os profissionais</h4>
                                 </div>
-                                <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                                <div className="timeline-body"><p className="text-muted">que atuam no mercado de TI, as mulheres representam apenas 20%.</p></div>
                             </div>
                         </li>
                         <li>
                             <div className="timeline-image"><img className="rounded-circle img-fluid" src={imagensNossaHistoria[2]} alt="..." /></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
-                                    <h4>December 2015</h4>
-                                    <h4 className="subheading">Transition to Full Service</h4>
+                                    <h4>79%</h4>
+                                    <h4 className="subheading">De todas as mulheres que</h4>
                                 </div>
-                                <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                                <div className="timeline-body"><p className="text-muted">ingressam em cursos de Tecnologia da Informação, 79% desistem no primeiro ano.</p></div>
                             </div>
                         </li>
                         <li className="timeline-inverted">
                             <div className="timeline-image"><img className="rounded-circle img-fluid" src={imagensNossaHistoria[3]} alt="..." /></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
-                                    <h4>July 2020</h4>
-                                    <h4 className="subheading">Phase Two Expansion</h4>
+                                    <h4>0,4%</h4>
+                                    <h4 className="subheading">Das meninas que gostam</h4>
                                 </div>
-                                <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                                <div className="timeline-body"><p className="text-muted">de ciência, tecnologia, engenharia e matemática, apenas 0,4% escolhem estudar Ciência da Computação quando adultas.</p></div>
                             </div>
                         </li>
                         <li className="timeline-inverted" >
                             <div className="timeline-image">
                                 <h4>
                                 <a className="cont-link" href="#contato">
-                                    Be Part
+                                    Apoie
                                     <br />
-                                    Of Our
+                                    Nossa
                                     <br />
-                                    Story!
+                                    Causa!
                                 </a>
                                 </h4>
                             </div>
