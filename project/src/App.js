@@ -11,6 +11,7 @@ import Contato from "./components/Contato/Contato";
 import Footer from "./components/Footer/Footer";
 import DepoimentosModals from "./components/DepoimentosModals/DepoimentosModals";
 
+
 class App extends Component {
   render() {
     return (

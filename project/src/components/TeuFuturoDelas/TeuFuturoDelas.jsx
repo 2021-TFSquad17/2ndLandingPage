@@ -3,6 +3,8 @@ import ImagemA from "../../assets/img/#teufuturo delas/svgTF.svg";
 import ImagemB from "../../assets/img/#teufuturo delas/svg-webinar.svg";
 import ImagemC from "../../assets/img/#teufuturo delas/bolsas.png";
 
+import Video from "../Vídeo/video";
+
 import "./style.css";
 
 function TeuFuturoDelas(){
@@ -37,6 +39,7 @@ function TeuFuturoDelas(){
                         <TeuFuturoDelasItem titulo={titulos[1]} subTitulo={subTitulos[1]} icone={icones[1]} clicavel={<a href="https://www.youtube.com/c/IMEDOficial">aqui!</a>}/>
                         <TeuFuturoDelasItem titulo={titulos[2]} subTitulo={subTitulos[2]} icone={icones[2]}/>                                                 
                     </div>
+                    <Video/>
                 </div>
             </section>
         );

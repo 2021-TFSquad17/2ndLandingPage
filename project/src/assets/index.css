@@ -64,9 +64,7 @@
   --bs-body-bg: #fff;
 }
 
-.title-tf-delas {
-  color:#7111A8;
-}
+
 
 *,
 *::before,
@@ -11323,11 +11321,19 @@ p {
   padding: 6rem 0;
   padding-bottom: 0;
 }
+
+.text-grey{
+  color: grey;
+}
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #7111A8;
 }
+
+
+
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1.2rem;
   font-weight: 400;
@@ -11813,3 +11819,5 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-family: "Montserrat";
 }
+
+
