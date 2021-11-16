@@ -17,7 +17,7 @@ function NossaHistoria(){
                 <div className="container">
                     <div className="text-center">
                         <h2 className="section-heading text-uppercase">Nossa História</h2>
-                        <h3 className="section-subheading text-muted">A iniciativa do projeto surgiu através de alguns dados divulgados pelo IBGE, como:</h3>
+                        <h3 className="section-subheading text-muted">A iniciativa do projeto surgiu através de alguns dados divulgados pelo IBGE e a Sociedade Brasileira de Computação, como:</h3>
                     </div>
                     <ul className="timeline">
                         <li>
