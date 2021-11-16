@@ -49,7 +49,7 @@ function FormContato() {
                 name="email"
                 className="normal-input"
                 type="email"
-                label="Email*"
+                label="E-mail*"
                 variant="filled"
                 color="secondary"
                 fullWidth
