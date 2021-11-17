@@ -15,7 +15,7 @@
   Essa landing page aborda sobre o #TeuFuturo Delas e foi desenvolvida por alunos do programa #TeuFuturo de 2021. A página foi feita com o intuito de promover a participação feminina no universo da programação. 
 </p>
 
-## Linguagens, dependencias e libs utilizadas :books:
+## Linguagens, dependências e libs utilizadas :books:
 
 - CSS, HTML5, JavaScript, React Native.
 
@@ -24,4 +24,4 @@
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: 2021 - Teu Futuro Delas
+Copyright :copyright: 2021 - #TeuFuturo Delas
