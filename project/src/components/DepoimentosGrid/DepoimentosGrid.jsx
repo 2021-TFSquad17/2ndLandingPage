@@ -12,23 +12,28 @@ function DepoimentosGrid() {
         DepoimentosItem3
     ];
 
-    const depoimentosLinks = [
-        "DepoimentosModal1",
-        "DepoimentosModal2",
-        "DepoimentosModal3"
-    ];
+    const depoimentos = {
+        depoimento1: {
+            titulo: "Julianne Martins",
+            subTitulo: "Estudante",
+            link: "DepoimentosModal1",
+            imagem: depoimentosImagens[0]
+        },
 
-    const depoimentosTitulo = [
-        "Julianne Martins",
-        "Isaura Koch",
-        "Eduarda Donadel"
-    ];
+        depoimento2: {
+            titulo: "Isaura Koch",
+            subTitulo: "Idealizadora do Projeto",
+            link: "DepoimentosModal2",
+            imagem: depoimentosImagens[1]
+        },
 
-    const depoimentoSubTitulo = [
-        "Estudante",
-        "Idealizadora do Projeto",
-        "Psicóloga"
-    ];
+        depoimento3: {
+            titulo: "Eduarda Donadel",
+            subTitulo: "Psicóloga",
+            link: "DepoimentosModal3",
+            imagem: depoimentosImagens[2]
+        }
+    }
 
     return (
         <section className="page-section bg-light" id="depoimentos">
@@ -38,30 +43,23 @@ function DepoimentosGrid() {
                     <h3 className="section-subheading text-muted">O projeto #TeuFuturo Delas mesmo recém começando sua trajetória já impactou positivamente a vida de muitas pessoas. Aqui separamos alguns depoimentos de colaboradoras e alunas que contam sua experiência com o projeto e como ele transformou suas vidas.</h3>
                 </div>
                 <div className="row">
-                    <DepoimentosItem
-                        depoimentosImagem={depoimentosImagens[0]}
-                        depoimentosLink={depoimentosLinks[0]}
-                        depoimentosTitulo={depoimentosTitulo[0]}
-                        depoimentosSubTitulo={depoimentoSubTitulo[0]}
-                    />
-
-                    <DepoimentosItem
-                        depoimentosImagem={depoimentosImagens[1]}
-                        depoimentosLink={depoimentosLinks[1]}
-                        depoimentosTitulo={depoimentosTitulo[1]}
-                        depoimentosSubTitulo={depoimentoSubTitulo[1]}
-                    />
-
-                    <DepoimentosItem
-                        depoimentosImagem={depoimentosImagens[2]}
-                        depoimentosLink={depoimentosLinks[2]}
-                        depoimentosTitulo={depoimentosTitulo[2]}
-                        depoimentosSubTitulo={depoimentoSubTitulo[2]}
-                    />
-
+                   {criarDepoimento(depoimentos.depoimento1)}
+                   {criarDepoimento(depoimentos.depoimento2)}
+                   {criarDepoimento(depoimentos.depoimento3)}
                 </div>
             </div>
         </section>
+    );
+}
+
+function criarDepoimento(depoimento) {
+    return (
+        <DepoimentosItem
+            titulo={depoimento.titulo}
+            subTitulo={depoimento.subTitulo}
+            link={depoimento.link}
+            imagem={depoimento.imagem}
+        />
     );
 }
 

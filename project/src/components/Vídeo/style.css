@@ -1,9 +1,51 @@
-
 .video {
     background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
     padding: 6rem 0;
     padding-bottom: 0;
-    vertical-align:middle
+    vertical-align:middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insertVideo{
+    width: 100%;
+}
+
+.insertVideo-video{
+    width: 500px;
+    height: 300px;
+    margin-right: 100px;
+}
+
+@media  screen and (max-width:1200px) {
+    .video{
+        display: inline-block;
+    }
+
+    .insertVideo{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .insertVideo-video{
+        width: 500px;
+        height: 400px;
+        margin: 0;
+    }
+
+    .text-video{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:560px){
+    .insertVideo-video{
+        width: 300px;
+        height: 200px;
+        margin: 0;
+    }
 }
     
 .text-video-title{
