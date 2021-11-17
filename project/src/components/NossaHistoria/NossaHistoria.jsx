@@ -25,7 +25,7 @@ function NossaHistoria(){
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
                                     <h4>15%</h4>
-                                    <h4 className="subheading">Atualmente, as mulheres</h4>
+                                    <h4 className="subheading">Atualmente as mulheres</h4>
                                 </div>
                                 <div className="timeline-body"><p className="text-muted">representam apenas 15% dos estudantes do curso de Ciência da Computação.</p></div>
                             </div>
