@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import './assets/App.css';
+import Navigation from "./components/Navigation/Navigation";
+import Header from "./components/Header/Header";
+import TeuFuturoDelas from "./components/TeuFuturoDelas/TeuFuturoDelas";
+import DepoimentosGrid from "./components/DepoimentosGrid/DepoimentosGrid";
+import NossaHistoria from "./components/NossaHistoria/NossaHistoria";
+import Time from "./components/Time/Time";
+import Apoiadores from "./components/Apoiadores/Apoiadores";
+import Contato from "./components/Contato/Contato";
+import Footer from "./components/Footer/Footer";
+import DepoimentosModals from "./components/DepoimentosModals/DepoimentosModals";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <div id="page-top">
+          <Navigation/>
+          <Header/>
+          <TeuFuturoDelas/>
+          <NossaHistoria/>
+          <DepoimentosGrid/>
+          <Time/>
+          <Apoiadores/>
+          <Contato/>
+          <Footer/>
+          <DepoimentosModals/>
+      </div>
+    );
+  }
 }
 
 export default App;
