@@ -17,7 +17,7 @@
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
-- CSS, HTML5, JavaScript, React Native.
+- CSS, HTML5, JavaScript, React.
 
 
 ## Licença 
